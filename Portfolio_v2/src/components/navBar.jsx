@@ -1,19 +1,21 @@
+import { Link } from 'react-router-dom';
+
 function NavBar() {
   return (
     <nav class="navbar bg-body-tertiary">
       <form class="container-fluid justify-content-start">
-        <button class="btn btn-outline-success me-2" type="button">
+        <Link class="btn btn-outline-success me-2" to="/about">
           About Me
-        </button>
-        <button class="btn btn-outline-success me-2" type="button">
+        </Link>
+        <Link class="btn btn-outline-success me-2" >
           Portfolio
-        </button>
-        <button class="btn btn-outline-success me-2" type="button">
+        </Link>
+        <Link class="btn btn-outline-success me-2" >
           Contact
-        </button>
-        <button class="btn btn-outline-success me-2" type="button">
+        </Link>
+        <Link class="btn btn-outline-success me-2" >
           Resume
-        </button>
+        </Link>
       </form>
     </nav>
   );
