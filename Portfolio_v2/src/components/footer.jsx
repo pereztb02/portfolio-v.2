@@ -6,7 +6,7 @@ function Footer() {
   const LinkedInUrl =  "https://www.linkedin.com/in/tiffany-perez-441114192/#:~:text=www.linkedin.com/in/tiffany%2Dperez%2D441114192";
 
   return (
-    <div>
+    <div className="footer">
         <a href={GitHubUrl} target="_blank" rel="noopener noreferrer">
           <FaGithub size={30} color="#000" />
         </a>

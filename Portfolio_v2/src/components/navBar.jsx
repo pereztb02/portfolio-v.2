@@ -2,12 +2,12 @@ import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
-    <nav class="navbar bg-body-tertiary">
-      <form class="container-fluid justify-content-start">
+    <nav className="navBar" class="navbar bg-body-tertiary">
+      <form class="container-fluid justify-content-end">
         <Link class="btn btn-outline-success me-2" to="/about">
           About Me
         </Link>
-        <Link class="btn btn-outline-success me-2" >
+        <Link class="btn btn-outline-success me-2" to="/portfolio">
           Portfolio
         </Link>
         <Link class="btn btn-outline-success me-2" >
