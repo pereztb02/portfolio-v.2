@@ -12,7 +12,8 @@ a {
 }
 
 .header {
-  text-align: center; /* Center the text horizontally */
+  text-align: start; /* Center the text horizontally */
+  background-color: #eccbd9;
 }
 .header h1,
 .header h3 {
@@ -20,6 +21,9 @@ a {
   margin: 10px;
 }
 
+.header h1 {
+color: #4FC8BC;
+}
 .navBar {
   display: flex;
   justify-content: center; /* Center horizontally */
@@ -49,4 +53,29 @@ a {
      height: 200px; /* Set the desired height for the images */
      object-fit: cover;
  /* Maintain aspect ratio and cover the entire container */
+}
+
+.contact-form {
+    margin: 40px;
+}
+
+.resume-div {
+    text-align: center;
+    height: 60vh;
+}
+
+.btn {
+    color: black;
+    background-color: #97C3FB;
+    box-sizing: border-box; 
+    border: 2px solid #97C3FB; 
+    box-sizing: border-box;
+
+}
+
+.btn:hover {
+  border-color: #97C3FB;  
+  border-width: 2px;
+  box-sizing: border-box; 
+
 }
