@@ -1,7 +1,7 @@
 {
   "name": "portfolio-v2",
   "private": true,
-  "homepage": "https://tiffany-perez-prof-portfolio.netlify.app/",
+  "homepage": "tiffany-perez-prof-portfolio.netlify.app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
